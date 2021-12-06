@@ -1,0 +1,924 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarListComp component should render properly CarListComp renders correctly snapshot test 1`] = `
+Array [
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-1"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/m3m-lnR90uM"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-1
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Manual
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          25.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          998 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Petrol
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-2"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/vw0AmpZvHZg"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-2
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Automatic
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          10.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          500 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Diesel
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-3"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/p7tai9P7H-s"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-3
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Automatic
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          10.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          500 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Diesel
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-4"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/fwYZ3B_QQco"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-4
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Automatic
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          10.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          500 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Diesel
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-5"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/N7RiDzfF2iw"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-5
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Manual
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          25.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          998 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Petrol
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-6"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/qyfco1nfMtg"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-6
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Manual
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          25.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          998 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Petrol
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-7"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/3ZUsNJhi_Ik"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-7
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Automatic
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          10.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          500 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Diesel
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-8"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/f_SDCASisgs"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-8
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Automatic
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          10.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          500 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Diesel
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root sc-bdvvtL cshKBW css-bhp9pd-MuiPaper-root-MuiCard-root"
+  >
+    <img
+      alt="Car-9"
+      className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-yp0x4u-MuiCardMedia-root"
+      src="https://source.unsplash.com/X16zXcbxU4U"
+    />
+    <div
+      className="MuiBox-root css-1wc4c43"
+    >
+      <div
+        className="MuiCardContent-root css-1qaznj3-MuiCardContent-root"
+      >
+        <h1
+          className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft MuiTypography-gutterBottom css-1g97bet-MuiTypography-root"
+        >
+          Car-9
+        </h1>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Price: ₹ 
+          20000000
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Type: 
+          Manual
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Speed: ₹ 
+          25.24 kmpl
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          CC: ₹ 
+          998 cc
+        </div>
+        <div
+          className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-alignLeft css-i35jw0-MuiTypography-root"
+        >
+          Fuel Type: ₹ 
+          Petrol
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root css-vj1n65-MuiGrid-root"
+      >
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-1vpxcgu-MuiButtonBase-root-MuiButton-root"
+          data-testid="buy-now"
+          disabled={false}
+          id="buy"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+          value="Buy-Now"
+        >
+          Buy Now
+        </button>
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          id="contact"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Contact Support
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

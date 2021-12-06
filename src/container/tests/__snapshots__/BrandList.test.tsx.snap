@@ -1,0 +1,839 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandList component should render properly BrandList renders correctly snapshot test 1`] = `
+<main>
+  <div
+    className="MuiBox-root css-10m0cap"
+  >
+    <div
+      className="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+    >
+      <h1
+        className="MuiTypography-root MuiTypography-h2 MuiTypography-alignCenter MuiTypography-gutterBottom css-10759ka-MuiTypography-root"
+      >
+        Select Your Car Brand Below
+      </h1>
+    </div>
+  </div>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-tj4w3q-MuiContainer-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Agera"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/xMyu5VQ4su4"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Agera
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Agera
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Audi"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/7lGiQDLnkUs"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Audi
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Audi
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Bentley"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/mUYlnOev7xc"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Bentley
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Bentley
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="BMW"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/w77TcvuhtWE"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              BMW
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From BMW
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Ferrari"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/3akA0XDg1_g"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Ferrari
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Ferrari
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Ford"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/lX2YG5w4_gs"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Ford
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Ford
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="GTR"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/keBp2WcK86U"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              GTR
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From GTR
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Hummer"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/G3_yUJQTYVA"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Hummer
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Hummer
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Jaguar"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/7tfu2dq8Ljk"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Jaguar
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Jaguar
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Lamborghini"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/HBop_t9V9kM"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Lamborghini
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Lamborghini
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Maserati"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/2eMJDJM9vxk"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Maserati
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Maserati
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Mini Cooper"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/oCG2nqQPLZs"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Mini Cooper
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Mini Cooper
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Range Rover"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/BYdnBgF5Z_M"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Range Rover
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Range Rover
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
+        >
+          <img
+            alt="Rolls-Royce"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            src="https://source.unsplash.com/wx-XBLK1bWA"
+          />
+          <div
+            className="MuiCardContent-root css-2r3irp-MuiCardContent-root"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1u905bv-MuiTypography-root"
+            >
+              Rolls-Royce
+            </h2>
+          </div>
+          <div
+            className="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <button
+              className="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              View All The Cars From Rolls-Royce
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-mevtxu-MuiSvgIcon-root"
+                data-testid="NavigateNextIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
