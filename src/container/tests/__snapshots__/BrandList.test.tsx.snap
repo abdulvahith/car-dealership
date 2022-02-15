@@ -13,23 +13,76 @@ exports[`BrandList component should render properly BrandList renders correctly 
       >
         Select Your Car Brand Below
       </h1>
+      <div
+        className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+        data-testid="search-box"
+      >
+        <label
+          className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink={false}
+        >
+          Search your car here
+        </label>
+        <div
+          className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-173wfxe"
+            >
+              <span>
+                Search your car here
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
     </div>
   </div>
   <div
     className="MuiContainer-root MuiContainer-maxWidthLg css-tj4w3q-MuiContainer-root"
+    data-testid="car-detail-container"
   >
     <div
       className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
     >
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemAgera"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Agera"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/xMyu5VQ4su4"
           />
           <div
@@ -81,13 +134,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemAudi"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Audi"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/7lGiQDLnkUs"
           />
           <div
@@ -139,13 +203,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemBentley"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Bentley"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/mUYlnOev7xc"
           />
           <div
@@ -197,13 +272,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemBMW"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="BMW"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/w77TcvuhtWE"
           />
           <div
@@ -255,13 +341,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemFerrari"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Ferrari"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/3akA0XDg1_g"
           />
           <div
@@ -313,13 +410,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemFord"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Ford"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/lX2YG5w4_gs"
           />
           <div
@@ -371,13 +479,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemGTR"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="GTR"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/keBp2WcK86U"
           />
           <div
@@ -429,13 +548,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemHummer"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Hummer"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/G3_yUJQTYVA"
           />
           <div
@@ -487,13 +617,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemJaguar"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Jaguar"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/7tfu2dq8Ljk"
           />
           <div
@@ -545,13 +686,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemLamborghini"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Lamborghini"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/HBop_t9V9kM"
           />
           <div
@@ -603,13 +755,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemMaserati"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Maserati"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/2eMJDJM9vxk"
           />
           <div
@@ -661,13 +824,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemMini Cooper"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Mini Cooper"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/oCG2nqQPLZs"
           />
           <div
@@ -719,13 +893,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemRange Rover"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Range Rover"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/BYdnBgF5Z_M"
           />
           <div
@@ -777,13 +962,24 @@ exports[`BrandList component should render properly BrandList renders correctly 
       </div>
       <div
         className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-17dw2p9-MuiGrid-root"
+        data-testid="car-detail-itemRolls-Royce"
       >
         <div
           className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-16vq84g-MuiPaper-root-MuiCard-root"
         >
+          <span
+            className="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-58ftfq-MuiSkeleton-root"
+            style={
+              Object {
+                "height": 540,
+                "width": 360,
+              }
+            }
+          />
           <img
             alt="Rolls-Royce"
-            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mww1b3-MuiCardMedia-root"
+            className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-10k6f1j-MuiCardMedia-root"
+            onLoad={[Function]}
             src="https://source.unsplash.com/wx-XBLK1bWA"
           />
           <div

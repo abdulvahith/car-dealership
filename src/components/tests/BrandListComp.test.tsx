@@ -1,7 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import BrandListComp from "../BrandListComp";
-import { mount, shallow } from "enzyme";
 import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
 import { data } from "../../constants/appConstants";
 import Enzyme from "enzyme";

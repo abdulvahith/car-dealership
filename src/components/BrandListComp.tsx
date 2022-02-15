@@ -9,19 +9,50 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { useNavigate, NavigateFunction } from "react-router-dom";
 import { CarsBrand } from "../container/types";
+import { useState } from "react";
+import Skeleton from "@mui/material/Skeleton";
 
 interface BrandListCompType {
   data: CarsBrand[];
 }
 
+const ImageRendered: React.FC<any> = ({ imgUrl, name }) => {
+  const [imgLoaded, setImgLoaded] = useState(false);
+
+  return (
+    <>
+      {!imgLoaded && (
+        <Skeleton variant="rectangular" width={360} height={540} />
+      )}
+      <CardMedia
+        component="img"
+        image={imgUrl}
+        alt={name}
+        sx={
+          imgLoaded
+            ? { width: "360px", height: "540px", display: "block" }
+            : { display: "none" }
+        }
+        onLoad={() => setImgLoaded(true)}
+      />
+    </>
+  );
+};
+
 const BrandListComp: React.FC<BrandListCompType> = ({ data }) => {
   let navigate: NavigateFunction = useNavigate();
 
   return (
-    <Container sx={{ py: 12 }} maxWidth="lg">
+    <Container sx={{ py: 12 }} maxWidth="lg" data-testid="car-detail-container">
       <Grid container spacing={2}>
         {data.map((car: any) => (
-          <Grid item key={car.id} xs={12} md={4}>
+          <Grid
+            item
+            key={car.id}
+            xs={12}
+            md={4}
+            data-testid={`car-detail-item${car.name}`}
+          >
             <Card
               sx={{
                 height: "100%",
@@ -29,12 +60,11 @@ const BrandListComp: React.FC<BrandListCompType> = ({ data }) => {
                 flexDirection: "column",
               }}
             >
-              <CardMedia
-                component="img"
-                image={`https://source.unsplash.com/${car.image}`}
-                alt={car.name}
-                sx={{ width: "360px", height: "540px" }}
+              <ImageRendered
+                imgUrl={`https://source.unsplash.com/${car.image}`}
+                name={car.name}
               />
+
               <CardContent sx={{ flexGrow: 1 }}>
                 <Typography
                   sx={{ color: "#12505b" }}
